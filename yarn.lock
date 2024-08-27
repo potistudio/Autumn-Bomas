@@ -9,6 +9,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "-@workspace:."
   dependencies:
+    "@fontsource-variable/noto-sans-jp": "npm:^5.0.20"
+    "@fontsource-variable/noto-serif-jp": "npm:^5.0.2"
+    "@fontsource/dela-gothic-one": "npm:^5.0.20"
     "@fontsource/fira-mono": "npm:^5.0.0"
     "@neoconfetti/svelte": "npm:^2.0.0"
     "@playwright/test": "npm:^1.28.1"
@@ -259,6 +262,27 @@ __metadata:
   version: 2.1.4
   resolution: "@eslint/object-schema@npm:2.1.4"
   checksum: 10c0/e9885532ea70e483fb007bf1275968b05bb15ebaa506d98560c41a41220d33d342e19023d5f2939fed6eb59676c1bda5c847c284b4b55fce521d282004da4dda
+  languageName: node
+  linkType: hard
+
+"@fontsource-variable/noto-sans-jp@npm:^5.0.20":
+  version: 5.0.20
+  resolution: "@fontsource-variable/noto-sans-jp@npm:5.0.20"
+  checksum: 10c0/8411d31c3a996ee810842d7914c3fd843ac4c150261c471b2e31e9ead9e3c1365909046d2d130d525204546dccab7e21ecec09d228377813d5e3e979f9610309
+  languageName: node
+  linkType: hard
+
+"@fontsource-variable/noto-serif-jp@npm:^5.0.2":
+  version: 5.0.2
+  resolution: "@fontsource-variable/noto-serif-jp@npm:5.0.2"
+  checksum: 10c0/8cc1381998ea67e59329e604abb3655da43ca9ad2b9e6c579074e06f0c58a22324effe6ba3e8c0f7f987acabf08301b612b3f6b7c73ee06e9b137d5342cbbf95
+  languageName: node
+  linkType: hard
+
+"@fontsource/dela-gothic-one@npm:^5.0.20":
+  version: 5.0.20
+  resolution: "@fontsource/dela-gothic-one@npm:5.0.20"
+  checksum: 10c0/026bedf24f161d6da3011ef412584646be627726552223bbae31d08dd4004cbda844d295df7e97b2214ae1ae4923febd3f143cb8b07db6a3c14d40ad79a9a188
   languageName: node
   linkType: hard
 

@@ -35,5 +35,10 @@
 		"vitest": "^2.0.0"
 	},
 	"type": "module",
-	"packageManager": "yarn@4.4.1"
+	"packageManager": "yarn@4.4.1",
+	"dependencies": {
+		"@fontsource-variable/noto-sans-jp": "^5.0.20",
+		"@fontsource-variable/noto-serif-jp": "^5.0.2",
+		"@fontsource/dela-gothic-one": "^5.0.20"
+	}
 }
