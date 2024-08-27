@@ -1,11 +1,6 @@
 <script>
-	import logoMain from '$lib/images/logo.png';
-	import logoSub from "$lib/images/awd.png";
+	import logoMain from "$lib/images/logo.png";
 	import background from "$lib/images/background.png";
-
-
-	// import Counter from './Counter.svelte';
-	// import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
 <svelte:head>
@@ -15,10 +10,9 @@
 
 <section>
 	<img class="Background" src={background} alt="" />
+
 	<div class="Top">
 		<img class="Welcome" src={logoMain} alt="welcome" />
-		<!--! Sub Logo  -->
-		<!-- <img class="Welcome" src={logoSub} alt="welcome" /> -->
 
 		<span>ボーカロイドonly event</span>
 		<span style="font-size: 2em;">「THE VOCALOiD MASTER５７」</span>
@@ -40,23 +34,6 @@
 			</tbody>
 		</table>
 	</div>
-
-
-	<!-- <h1>THE VOCALOID MASTER - 2024秋</h1>
-	<h2>9/21 & 9/22</h2> -->
-<!--
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/png" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		<!-- to your new<br />SvelteKit app -->
-	<!-- </h1> -->
-
-	<!-- <Counter /> -->
 </section>
 
 <style>
@@ -82,8 +59,6 @@
 			background-color: #FFFFFF80;
 			box-shadow: 0 8px 8px #00000080;
 			text-shadow: 0 1px 2px #9e563a;
-
-
 
 			.Welcome {
 				width: 40%;
@@ -135,33 +110,5 @@
 				}
 			}
 		}
-	}
-
-	h1 {
-		font-size: 4vw;
-		font-weight: 400;
-	}
-
-	h2 {
-		position: relative;
-		top: -64px;
-		font-size: 2vw;
-		font-weight: 600;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
 	}
 </style>

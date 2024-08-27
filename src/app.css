@@ -1,9 +1,9 @@
-@import "@fontsource/dela-gothic-one";
-@import "@fontsource-variable/noto-sans-jp";
-@import "@fontsource-variable/noto-serif-jp";
+@import "@fontsource/noto-serif-jp/400.css";
+@import "@fontsource/noto-serif-jp/600.css";
+@import "@fontsource/noto-serif-jp/800.css";
 
 :root {
-	--font-body: "Noto Serif JP Variable", Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+	--font-body: "Noto Serif JP", Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-0: rgb(231, 219, 198);
