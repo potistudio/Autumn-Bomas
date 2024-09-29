@@ -1,5 +1,7 @@
 ![image](https://github.com/user-attachments/assets/78d2e552-b067-4753-8956-cdac4abc6166)
 
+**秋ボマス and 秋ボマスWeb has ended. Please come again!**
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
